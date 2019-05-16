@@ -1,2 +1,2 @@
-# aspnetcoreModel1
-<h1> merhaba </h1>
+aspnet core ile basit model kullanım örneği,
+
