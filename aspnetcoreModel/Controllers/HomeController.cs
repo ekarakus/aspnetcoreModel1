@@ -12,7 +12,8 @@ namespace aspnetcoreModel.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            Oyuncu model = new Oyuncu() { ad = "Kıvanç", soyad = "Tatlıtuğ", cinsiyet = "Erkek", dogumTarih = DateTime.Now };
+            return View(model);
         }
 
         public IActionResult About()
